@@ -1,0 +1,84 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/montserrat.woff2") format("woff2"), url("../fonts/montserrat.woff") format("woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/montserratbold.woff2") format("woff2"), url("../fonts/montserratbold.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
+}
+
+body {
+  min-width: 320px;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Montserrat", "Open Sans", "Arial", sans-serif;
+  color: #000000;
+  font-style: normal;
+
+  background-color: #ffffff;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  transition-duration: 0.1s;
+}
+
+*::after,
+*::before {
+  transition-duration: 0.1s;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

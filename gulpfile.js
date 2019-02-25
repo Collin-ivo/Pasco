@@ -16,7 +16,8 @@ var uglify = require('gulp-uglify');
 
 gulp.task("copy", function () {
   return gulp.src([
-    "source/fonts/**/*.{woff2, woff}",
+    "source/fonts/**/*.woff",
+    "source/fonts/**/*.woff2",
     "source/img/**",
     "source/js/**",
     "source/*.html"

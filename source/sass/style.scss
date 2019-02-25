@@ -1,1 +1,41 @@
 @import "normalize";
+@import "mixins";
+@import "variables";
+
+@import "scaffolding";
+@import "blocks/button.scss";
+
+
+
+@import "blocks/page-header";
+@import "blocks/page-main";
+@import "blocks/page-footer";
+@import "blocks/footer-top.scss";
+@import "blocks/footer-bottom.scss";
+
+@import "blocks/top-menu.scss";
+@import "blocks/sign-in.scss";
+@import "blocks/language.scss";
+@import "blocks/social-icons.scss";
+@import "blocks/main-menu.scss";
+@import "blocks/logo.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/header-title.scss";
+@import "blocks/author.scss";
+@import "blocks/sort-blog.scss";
+@import "blocks/articles.scss";
+@import "blocks/article.scss";
+@import "blocks/sidebar.scss";
+@import "blocks/blog-categories.scss";
+@import "blocks/subscribe.scss";
+@import "blocks/social-widget.scss";
+@import "blocks/tab-post-widget.scss";
+@import "blocks/tags-widget.scss";
+@import "blocks/instagram-widget.scss";
+@import "blocks/subscribe-widget.scss";
+@import "blocks/pages-widget.scss";
+@import "blocks/twitter-widget.scss";
+@import "blocks/news-letter-form.scss";
+@import "blocks/text-widget.scss";
+@import "blocks/flikr-widget.scss";
+@import "blocks/copyright.scss";
