@@ -1,0 +1,29 @@
+.comments-likes-widget {
+
+  a {
+    position: relative;
+    padding-left: 21px;
+    margin-right: 31px;
+    font-size: 12px;
+    line-height: 27px;
+    font-weight: 400;
+
+    svg {
+      position: absolute;
+      left: 0;
+      top: calc(50% - 8px);
+      box-shadow: 0 0 0 1px green;
+    }
+  }
+
+  a:last-child {
+    margin-right: 0;
+  }
+  
+  span::before {
+    content: "(";
+  }
+  span::after {
+    content: ")";
+  }
+}

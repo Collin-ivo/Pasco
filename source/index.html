@@ -4,442 +4,603 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Pasco</title>
-  <link rel="stylesheet" href="css/style-min.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <head class="page-header">
-    <ul class="top-menu">
-      <li class="top-menu__item">
-        <a class="sign-in">Sign in</a>
-      </li>
-      <li class="top-menu__item language">
-        <ul class="language__list">
-          <li class="language__item">
-            <a class="language__toggle" href="#">Eng</a>
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <h1 class="page-header__title visually-hidden">Pasco - good blog</h1>
+      <div class="top-menu">
+        <ul class="top-menu__list">
+          <li class="top-menu__item top-menu__item--sign-in">
+            <a class="sign-in">Sign in</a>
           </li>
-        </ul>
-      </li>
-      <li class="top-menu__item social-icons">
-        <ul class="social-icons__list">
-          <li class="social-icons__item">
-            <a href="#">F</a>
+          <li class="top-menu__item language top-menu__item--language">
+            <ul class="language__list">
+              <li class="language__item">
+                <a class="language__toggle" href="#">Eng</a>
+              </li>
+            </ul>
           </li>
-          <li class="social-icons__item">
-            <a href="#">t</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">p</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">vk</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">g</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">be</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">xz</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">inst</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <nav class="main-menu">
-      <a class="main-menu__logo logo">
-        <img src="#" alt="Pasco">
-      </a>
-      <div class="main-menu__nav main-nav main-nav--nojs">
-        <button class="main-nav__toggle" type="button">Open</button>
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#">Home</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Portfolio</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Blog</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Pages</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Shop</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Components</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Features</a>
+          <li class="top-menu__item top-menu__item--social-icons social-icons">
+            <ul class="social-icons__list">
+              <li class="social-icons__item">
+                <a href="#">F</a>
+              </li>
+              <li class="social-icons__item">
+                <a href="#">t</a>
+              </li>
+              <li class="social-icons__item">
+                <a href="#">p</a>
+              </li>
+              <li class="social-icons__item">
+                <a href="#">vk</a>
+              </li>
+              <li class="social-icons__item">
+                <a href="#">g</a>
+              </li>
+              <li class="social-icons__item">
+                <a href="#">be</a>
+              </li>
+              <li class="social-icons__item">
+                <a href="#">xz</a>
+              </li>
+              <li class="social-icons__item">
+                <a href="#">inst</a>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
-      <ul class="main-menu__links">
-        <li class="main-menu__item main-menu__item--search">Search</li>
-        <li class="main-menu__item main-menu__item--likes">Likes</li>
-        <li class="main-menu__item main-menu__item--cart">Cart</li>
-      </ul>
-    </nav>
-    <section class="header-title">
-      <div class="header-title__wrapper">
-        <div class="header-title__caption">
-          <b>Inspiration</b>
-          <h1>5 Ways milllennials can start building their future today</h1>
-        </div>
-        <button type="button" class="header-title__button button">Read more</button>
-        <div class="header-title__author author">
-          <img class="author__photo" src="#" alt="Henry Little">
-          <h2 class="author__name">Henry Little</h2>
-          <date class="author__date">Apri 28, 2016   10:15</date>
-          <a class="header-title__comments"></a>
-          <a class="header-title__likes"></a>
-        </div>
+      <div class="page-header__bottom">
+        <nav class="main-menu">
+          <div class="main-menu__logo logo">
+            <a href="#">Pasco</a>
+          </div>
+          <div class="main-menu__nav main-nav main-nav--nojs">
+            <button class="main-nav__toggle" type="button">Open</button>
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#">Home</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#">Portfolio</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#">Pages</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#">Shop</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#">Components</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#">Features</a>
+              </li>
+            </ul>
+          </div>
+          <div class="main-menu__links links-widget">
+            <ul class="links-widget__list">
+              <li class="links-widget__item links-widget__item--search">Search</li>
+              <li class="links-widget__item links-widget__item--likes">Likes</li>
+              <li class="links-widget__item links-widget__item--cart">Cart</li>
+            </ul>
+          </div>
+        </nav>
+        <section class="header-title">
+          <div class="header-title__wrapper header-slider">
+            <div class="header-title__caption">
+              <b>Inspiration</b>
+              <h2>5 Ways milllennials can start building their future today</h2>
+            </div>
+            <button type="button" class="header-title__button button">Read more</button>
+            <div class="header-title__author author">
+              <div class="author__photo-container">
+                <img class="author__photo" src="img/user-photo-1.jpg" width="58" height="58" alt="Henry Little">
+              </div>
+              
+              <h2 class="author__name">Henry Little</h2>
+              <date class="author__date">Apri 28, 2016   10:15</date>
+              <div class="author__comments-likes comments-likes-widget">
+                <a class="comments-likes-widget__comments"><svg width="16" height="16"></svg>Comments <span>28</span></a>
+                <a class="comments-likes-widget__likes"><svg width="16" height="16"></svg>Likes <span>07</span></a>
+              </div>
+              
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
-  </head>
-
+    </div>
+  </header>
   <main class="page-main">
     <section class="sort-blog">
-      <h2 class="sort-blog__title">Sort blog</h2>
-      <ul class="sort-blog__list">
-        <li class="sort-blog__item"><a href="#">All</a></li>
-        <li class="sort-blog__item"><a href="#">Photography</a></li>
-        <li class="sort-blog__item"><a href="#">Lifestyle</a></li>
-        <li class="sort-blog__item"><a href="#">Trip</a></li>
-        <li class="sort-blog__item"><a href="#">Inspiration</a></li>
-      </ul>
+      <div class="sort-blog__wrapper sort-blog__wrapper--closed">
+        <h2 class="sort-blog__title">Sort blog</h2>
+        <ul class="sort-blog__list">
+          <li class="sort-blog__item"><a href="#">All</a></li>
+          <li class="sort-blog__item"><a href="#">Photography</a></li>
+          <li class="sort-blog__item"><a href="#">Lifestyle</a></li>
+          <li class="sort-blog__item"><a href="#">Trip</a></li>
+          <li class="sort-blog__item"><a href="#">Inspiration</a></li>
+        </ul>
+      </div>
     </section>
     
-    <section class="articles">
-      <div class="articles__wrapper">
-        <ul class="articles__list">
-          <li class="articles__item articles__item--big">
-            <article class="article article--big">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
-                </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+    <div class="page-main__container">
+      <section class="articles">
+        <div class="articles__wrapper">
+          <ul class="articles__list">
+            <li class="articles__item articles__item--big">
+              <article class="article article--big">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--horizontal">
-            <article class="article article--horizontal">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__category">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--horizontal">
+              <article class="article article--horizontal">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--vertical">
-            <article class="article article--vertical">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__category">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--vertical">
+              <article class="article article--vertical">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--small">
-            <article class="article article--small">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--small">
+              <article class="article article--small">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--small">
-            <article class="article article--small">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--small">
+              <article class="article article--small">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--vertical">
-            <article class="article article--vertical">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--vertical">
+              <article class="article article--vertical">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--middle">
-            <article class="article article--middle">
-              <header class="article__header">
-                <div class="article__promo article__promo--video">
-                  <video></video>
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--middle">
+              <article class="article article--middle">
+                <header class="article__header">
+                  <div class="article__promo article__promo--video">
+                    <video></video>
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--horizontal">
-            <article class="article article--horizontal">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--horizontal">
+              <article class="article article--horizontal">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--horizontal">
-            <article class="article article--horizontal">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--horizontal">
+              <article class="article article--horizontal">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--big">
-            <article class="article article--big">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--big">
+              <article class="article article--big">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--middle">
-            <article class="article article--middle">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--middle">
+              <article class="article article--middle">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-          <li class="articles__item articles__item--big">
-            <article class="article article--big">
-              <header class="article__header">
-                <div class="article__promo article__promo--image">
-                  <img src="#">
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
                 </div>
-                <a class="article__cetegory">Inspiration</a>
-                <a class="article__comments">7</a>
-                <span class="article__likes">15</span>
-              </header>
-              <div class="article__body">
-                <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
-                <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
-                <footer class="article__footer">
-                  <div class="article__author">
-                    <img class="article__author-photo" src="#">
-                    <b class="article__author-name">Henry Little</b>
-                    <date class="article__date">Apri 28, 2016   10:15</date>
+              </article>
+            </li>
+            <li class="articles__item articles__item--big">
+              <article class="article article--big">
+                <header class="article__header">
+                  <div class="article__promo article__promo--image">
+                    <img src="#">
                   </div>
-                  <div class="article__button">more</div>
-                </footer>
-              </div>
-            </article>
-          </li>
-        </ul>
-        <a class="articles__more" href="#">More</a>
-      </div>
-    </section>
-
-    <section class="sidebar">
-      <div class="sidebar__search search">
-        <input type="search" name="search" placeholder="Search">
-      </div>
-      <section class="sidebar__blog-categories blog-categories">
-        <h3 class="blog-categories__title">Categories</h3>
-        <ul class="blog-categories__list">
-          <li class="blog-categories__item">
-            <a href="#">Photography</a>
-          </li>
-          <li class="blog-categories__item">
-            <a href="#">Illustration</a>
-          </li>
-          <li class="blog-categories__item">
-            <a href="#">Graphic Design</a>
-          </li>
-          <li class="blog-categories__item">
-            <a href="#">Videorgaphy</a>
-          </li>
-        </ul>
+                  <a class="article__cetegory">Inspiration</a>
+                  <a class="article__comments">7</a>
+                  <span class="article__likes">15</span>
+                </header>
+                <div class="article__body">
+                  <h2 class="article__title">Lorem ipsum dolor sit ame scing lorem aelit</h2>
+                  <p class="article__desc">Lorem ipsum dolor sit amet, to consectetur adipi scing elit ipsu. Nulla vel vehicula lorem ipsum.</p>
+                  <footer class="article__footer">
+                    <div class="article__author">
+                      <img class="article__author-photo" src="#">
+                      <b class="article__author-name">Henry Little</b>
+                      <date class="article__date">Apri 28, 2016   10:15</date>
+                    </div>
+                    <div class="article__button">more</div>
+                  </footer>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <a class="articles__more" href="#">More</a>
+        </div>
       </section>
-      <section class="sidebar__subscribe subscribe">
-        <form class="subscribe__form">
-          <label for="username">Name</label>
-          <input type="text" name="username" id="username">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-          <button class="button subscribe__button" type="submit">Subscribe</button>
-        </form>
-        <div class="subscribe__social social-widget">
+
+      <aside class="sidebar">
+        <div class="sidebar__search search">
+          <input type="search" name="search" placeholder="Search">
+        </div>
+        <section class="sidebar__blog-categories blog-categories">
+          <h3 class="blog-categories__title">Categories</h3>
+          <ul class="blog-categories__list">
+            <li class="blog-categories__item">
+              <a href="#">Photography</a>
+            </li>
+            <li class="blog-categories__item">
+              <a href="#">Illustration</a>
+            </li>
+            <li class="blog-categories__item">
+              <a href="#">Graphic Design</a>
+            </li>
+            <li class="blog-categories__item">
+              <a href="#">Videorgaphy</a>
+            </li>
+          </ul>
+        </section>
+        <section class="sidebar__subscribe subscribe">
+          <form class="subscribe__form">
+            <label for="username">Name</label>
+            <input type="text" name="username" id="username">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <button class="button subscribe__button" type="submit">Subscribe</button>
+          </form>
+          <div class="subscribe__social social-widget">
+            <ul class="social-widget__list">
+              <li class="social-widget__item">
+                <a href="#">Facebook</a>
+              </li>
+              <li class="social-widget__item">
+                <a href="#">Twitter</a>
+              </li>
+              <li class="social-widget__item">
+                <a href="#">Vkontakte</a>
+              </li>
+              <li class="social-widget__item">
+                <a href="#">Pinterest</a>
+              </li>
+              <li class="social-widget__item">
+                <a href="#">Fb</a>
+              </li>
+              <li class="social-widget__item">
+                <a href="#">Fb</a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscribe__tab-post tab-post-widget">
+            <div class="tab-post-widget__buttons">
+              <button class="button tab-post-widget__button" type="button">Recent post</button>
+              <button class="button tab-post-widget__button" type="button">Popular post</button>
+            </div>
+            <ul class="tab-post-widget__list">
+              <li class="tab-post-widget__item">
+                <a href="#">Post</a>
+              </li>
+              <li class="tab-post-widget__item">
+                <a href="#">Post</a>
+              </li>
+              <li class="tab-post-widget__item">
+                <a href="#">Post</a>
+              </li>
+              <li class="tab-post-widget__item">
+                <a href="#">Post</a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscribe__tags tags-widget">
+            <ul class="tags-widget__list">
+              <li class="tags-widget__item"><a href="#"></a></li>
+              <li class="tags-widget__item"><a href="#"></a></li>
+              <li class="tags-widget__item"><a href="#"></a></li>
+              <li class="tags-widget__item"><a href="#"></a></li>
+              <li class="tags-widget__item"><a href="#"></a></li>
+              <li class="tags-widget__item"><a href="#"></a></li>
+              <li class="tags-widget__item"><a href="#"></a></li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="footer-additional">
+      <div class="footer-additional__instagram instagram-widget">
+        <ul class="instagram-widget__list">
+          <li class="instagram-widget__item"><img src="img/Layer 21.jpg" width="240" height="240"></li>
+          <li class="instagram-widget__item"><img src="img/Layer 22.jpg" width="240" height="240"></li>
+          <li class="instagram-widget__item"><img src="img/Layer 23.jpg" width="240" height="240"></li>
+          <li class="instagram-widget__item"><img src="img/Layer 24.jpg" width="240" height="240"></li>
+          <li class="instagram-widget__item"><img src="img/Layer 26.jpg" width="240" height="240"></li>
+          <li class="instagram-widget__item"><img src="img/Layer 31.jpg" width="240" height="240"></li>
+          <li class="instagram-widget__item"><img src="img/Layer 32.jpg" width="240" height="240"></li>
+          <li class="instagram-widget__item"><img src="img/Layer 68.jpg" width="240" height="240"></li>
+        </ul>
+      </div>
+      
+      <div class="footer-additional__subscribe subscribe-widget">
+        <div class="subscribe-widget__wrapper">
+          <h2 class="subscribe-widget__title">Subscribe to our newsletter</h2>
+          <form class="subscribe-widget__form" method="POST">
+            <input type="email" name="email" placeholder="Email Adress">
+            <button class="button subscribe-widget__button" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <section class="footer-top">
+      <div class="footer-top__wrapper">
+        <section class="footer-top__pages-widget pages-widget">
+          <h2 class="pages-widget__title">Pages Widget</h2>
+          <ul class="pages-widget__list">
+            <li class="pages-widget__item">
+              <a href="#">Home</a>
+            </li>
+            <li class="pages-widget__item">
+              <a href="#">Pages</a>
+              <ul class="pages-widget__list-inner">
+                <li><a>Service</a></li>
+                <li><a>FAQ</a></li>
+                <li><a>About</a></li>
+              </ul>
+            </li>
+            <li class="pages-widget__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="pages-widget__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="pages-widget__item">
+              <a href="#">Shop</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="footer-top__twitter-widget twitter-widget">
+          <h2 class="twitter-widget__title">Twitter widget</h2>
+          <ul class="twitter-widget__twits">
+            <li class="twitter-widget__twit-item">
+              <h3 class="twitter-widget__twit-text">@PASCO, Duis commodo elit sed nisi molestie</h3>
+              <div class="twitter-widget__twit-footer">
+                <span class="twitter-widget-time-ago">2 hours ago</span>
+                <a href="#">Reply</a>
+                <a href="#">Retweet</a>
+                <a href="#">Favorite</a>
+              </div>
+            </li>
+            <li class="twitter-widget__twit-item">
+              <h3 class="twitter-widget__twit-text">@PASCO, Duis commodo elit sed nisi molestie</h3>
+              <div class="twitter-widget__twit-footer">
+                <span class="twitter-widget-time-ago">2 hours ago</span>
+                <a href="#">Reply</a>
+                <a href="#">Retweet</a>
+                <a href="#">Favorite</a>
+              </div>
+            </li>
+            <li class="twitter-widget__twit-item">
+              <h3 class="twitter-widget__twit-text">@PASCO, Duis commodo elit sed nisi molestie</h3>
+              <div class="twitter-widget__twit-footer">
+                <span class="twitter-widget-time-ago">2 hours ago</span>
+                <a href="#">Reply</a>
+                <a href="#">Retweet</a>
+                <a href="#">Favorite</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="footer-top__social social-widget">
           <ul class="social-widget__list">
             <li class="social-widget__item">
               <a href="#">Facebook</a>
@@ -461,283 +622,167 @@
             </li>
           </ul>
         </div>
-        <div class="subscribe__tab-post tab-post-widget">
-          <div class="tab-post-widget__buttons">
-            <button class="button tab-post-widget__button" type="button">Recent post</button>
-            <button class="button tab-post-widget__button" type="button">Popular post</button>
-          </div>
-          <ul class="tab-post-widget__list">
-            <li class="tab-post-widget__item">
-              <a href="#">Post</a>
+
+        <section class="footer-top__news-letter-form news-letter-form">
+          <h2 class="news-letter-form__title">News letter</h2>
+          <form>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email Adress">
+            <textarea placeholder="Message"></textarea>
+            <button class="news-letter-form__button" type="submit">Subscribe</button>
+          </form>
+        </section>
+
+        <section class="footer-top__text-widget text-widget">
+          <h2 class="text-widget__title">
+            <div class="logo">
+              <a href="#">Pasco</a>
+            </div>
+          </h2>
+          <p class="text-widget__text">PASCO sit amet varius orci. Duis upse commodo elit sedamocid nisimole up stie, vitae fringilla justo fringilla. 
+            Lori Vestibulum libr portaman neque enia gravida elementum facilisis ipsum leonardo. Vestibulum loeuenim and libero, lobortis eu tortor ut, hendrerit  maxi tellus. 
+            Vivamus egestas massa leo, sit amet facilisis commodo. </p>
+          <a class="text-widget__button" href="#">Read more</a>
+        </section>
+
+        <section class="footer-top__blog-categories blog-categories">
+          <h3 class="blog-categories__title">Categories</h3>
+          <ul class="blog-categories__list">
+            <li class="blog-categories__item">
+              <a href="#">Photogty</a><span>195</span>
             </li>
-            <li class="tab-post-widget__item">
-              <a href="#">Post</a>
+            <li class="blog-categories__item">
+              <a href="#">Illustration</a><span>15</span>
             </li>
-            <li class="tab-post-widget__item">
-              <a href="#">Post</a>
+            <li class="blog-categories__item">
+              <a href="#">Graphic Design</a><span>36</span>
             </li>
-            <li class="tab-post-widget__item">
-              <a href="#">Post</a>
+            <li class="blog-categories__item">
+              <a href="#">Web Design</a><span>220</span>
+            </li>
+            <li class="blog-categories__item">
+              <a href="#">Illustration</a><span>15</span>
+            </li>
+            <li class="blog-categories__item">
+              <a href="#">Graphic Design</a><span>36</span>
             </li>
           </ul>
-        </div>
-        <div class="subscribe__tags tags-widget">
+        </section>
+        
+        <div class="footer-top__tags tags-widget">
+          <h2 class="tags-widget__title">Tags</h2>
           <ul class="tags-widget__list">
-            <li class="tags-widget__item"><a href="#"></a></li>
-            <li class="tags-widget__item"><a href="#"></a></li>
-            <li class="tags-widget__item"><a href="#"></a></li>
-            <li class="tags-widget__item"><a href="#"></a></li>
-            <li class="tags-widget__item"><a href="#"></a></li>
-            <li class="tags-widget__item"><a href="#"></a></li>
-            <li class="tags-widget__item"><a href="#"></a></li>
+            <li class="tags-widget__item"><a href="#">Photography</a></li>
+            <li class="tags-widget__item"><a href="#">Webdesign</a></li>
+            <li class="tags-widget__item"><a href="#">Youtube</a></li>
+            <li class="tags-widget__item"><a href="#">Envato</a></li>
+            <li class="tags-widget__item"><a href="#">Art</a></li>
+            <li class="tags-widget__item"><a href="#">Themefotest</a></li>
+            <li class="tags-widget__item"><a href="#">Illustration</a></li>
+            <li class="tags-widget__item"><a href="#">Photodune</a></li>
+            <li class="tags-widget__item"><a href="#">Pasco</a></li>
+            <li class="tags-widget__item"><a href="#">Art</a></li>
+            <li class="tags-widget__item"><a href="#">Codecanyon</a></li>
+            <li class="tags-widget__item"><a href="#">Videohive</a></li>
           </ul>
         </div>
-      </section>
-    </section>
-  </main>
-
-  <footer class="page-footer">
-    <div class="instagram-widget">
-      <ul class="instagram-widget__list">
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-        <li class="instagram-widget__item"><img src="#"></li>
-      </ul>
-    </div>
-    
-    <div class="subscribe-widget">
-      <h2 class="subscribe-widget__title">Subscribe to our newsletter</h2>
-      <form class="subscribe-widget__form" method="POST">
-        <input type="email" name="email" placeholder="Email Adress">
-        <button class="button subscribe-widget__button" type="submit">Subscribe</button>
-      </form>
-    </div>
-
-    <section class="footer-top">
-      <section class="pages-widget">
-        <h2 class="pages-widget__title">Pages Widget</h2>
-        <ul class="pages-widget__list">
-          <li class="pages-widget__item">
-            <a href="#">Home</a>
-          </li>
-          <li class="pages-widget__item">
-            <a href="#">Pages</a>
-            <ul class="pages-widget__list-inner">
-              <li><a>Service</a></li>
-              <li><a>FAQ</a></li>
-              <li><a>About</a></li>
-            </ul>
-          </li>
-          <li class="pages-widget__item">
-            <a href="#">Portfolio</a>
-          </li>
-          <li class="pages-widget__item">
-            <a href="#">Blog</a>
-          </li>
-          <li class="pages-widget__item">
-            <a href="#">Shop</a>
-          </li>
-        </ul>
-      </section>
-
-      <section class="twitter-widget">
-        <h2 class="twitter-widget__title">Twitter widget</h2>
-        <ul class="twitter-widget__twits">
-          <li class="twitter-widget__twit-item">
-            <h3 class="twitter-widget__twit-text">@PASCO, Duis commodo elit sed nisi molestie</h3>
-            <div class="twitter-widget__twit-footer">
-              <span class="twitter-widget-time-ago">2 hours ago</span>
-              <a href="#">Reply</a>
-              <a href="#">Retweet</a>
-              <a href="#">Favorite</a>
-            </div>
-          </li>
-          <li class="twitter-widget__twit-item">
-            <h3 class="twitter-widget__twit-text">@PASCO, Duis commodo elit sed nisi molestie</h3>
-            <div class="twitter-widget__twit-footer">
-              <span class="twitter-widget-time-ago">2 hours ago</span>
-              <a href="#">Reply</a>
-              <a href="#">Retweet</a>
-              <a href="#">Favorite</a>
-            </div>
-          </li>
-          <li class="twitter-widget__twit-item">
-            <h3 class="twitter-widget__twit-text">@PASCO, Duis commodo elit sed nisi molestie</h3>
-            <div class="twitter-widget__twit-footer">
-              <span class="twitter-widget-time-ago">2 hours ago</span>
-              <a href="#">Reply</a>
-              <a href="#">Retweet</a>
-              <a href="#">Favorite</a>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <div class="footer-top__social social-widget">
-        <ul class="social-widget__list">
-          <li class="social-widget__item">
-            <a href="#">Facebook</a>
-          </li>
-          <li class="social-widget__item">
-            <a href="#">Twitter</a>
-          </li>
-          <li class="social-widget__item">
-            <a href="#">Vkontakte</a>
-          </li>
-          <li class="social-widget__item">
-            <a href="#">Pinterest</a>
-          </li>
-          <li class="social-widget__item">
-            <a href="#">Fb</a>
-          </li>
-          <li class="social-widget__item">
-            <a href="#">Fb</a>
-          </li>
-        </ul>
+        <section class="footer-top__flickr-widget flickr-widget">
+          <h2 class="flickr-widget__title">Flickr</h2>
+          <ul class="flickr-widget__list">
+            <li class="flickr-widget__item">
+              <a href="#">
+                <img src="img/flickr-1.jpg" width="130" height="130" alt="flickr-1">
+              </a>
+            </li>
+            <li class="flickr-widget__item">
+              <a href="#">
+                <img src="img/flickr-2.jpg" width="130" height="130" alt="flickr-1">
+              </a>
+            </li>
+            <li class="flickr-widget__item">
+              <a href="#">
+                <img src="img/flickr-3.jpg" width="130" height="130" alt="flickr-1">
+              </a>
+            </li>
+            <li class="flickr-widget__item">
+              <a href="#">
+                <img src="img/flickr-4.jpg" width="130" height="130" alt="flickr-1">
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
-
-      <section class="footer-top__news-letter-form news-letter-form">
-        <h2 class="news-letter-form__title">News letter</h2>
-        <form>
-          <input type="text" name="name" placeholder="Name">
-          <input type="email" name="email" placeholder="Email Adress">
-          <textarea placeholder="Message"></textarea>
-          <button class="news-letter-form__button" type="submit">Subscribe</button>
-        </form>
-      </section>
-
-      <section class="footer-top__text-widget text-widget">
-        <h2>Pasco</h2>
-        <p class="text-widget__text">PASCO sit amet varius orci. Duis upse commodo elit sedamocid nisimole up stie, vitae fringilla justo fringilla. 
-          Lori Vestibulum libr portaman neque enia gravida elementum facilisis ipsum leonardo. Vestibulum loeuenim and libero, lobortis eu tortor ut, hendrerit  maxi tellus. 
-          Vivamus egestas massa leo, sit amet facilisis commodo. </p>
-        <a class="text-widget__button" href="#">Read more</a>
-      </section>
-
-      <section class="footer-top__blog-categories blog-categories">
-        <h3 class="blog-categories__title">Categories</h3>
-        <ul class="blog-categories__list">
-          <li class="blog-categories__item">
-            <a href="#">Photography</a>
-          </li>
-          <li class="blog-categories__item">
-            <a href="#">Illustration</a>
-          </li>
-          <li class="blog-categories__item">
-            <a href="#">Graphic Design</a>
-          </li>
-          <li class="blog-categories__item">
-            <a href="#">Videorgaphy</a>
-          </li>
-        </ul>
-      </section>
-      
-      <div class="footer-top__tags tags-widget">
-        <ul class="tags-widget__list">
-          <li class="tags-widget__item"><a href="#"></a></li>
-          <li class="tags-widget__item"><a href="#"></a></li>
-          <li class="tags-widget__item"><a href="#"></a></li>
-          <li class="tags-widget__item"><a href="#"></a></li>
-          <li class="tags-widget__item"><a href="#"></a></li>
-          <li class="tags-widget__item"><a href="#"></a></li>
-          <li class="tags-widget__item"><a href="#"></a></li>
-        </ul>
-      </div>
-      <section class="footer-top__flickr-widget flickr-widget">
-        <h2 class="flickr-widget__title">Flickr</h2>
-        <ul class="flickr-widget__list">
-          <li class="flickr-widget__item">
-            <a href="#"></a>
-          </li>
-          <li class="flickr-widget__item">
-            <a href="#"></a>
-          </li>
-          <li class="flickr-widget__item">
-            <a href="#"></a>
-          </li>
-          <li class="flickr-widget__item">
-            <a href="#"></a>
-          </li>
-        </ul>
-      </section>
-
     </section>
+
     <section class="footer-bottom">
-      <div class="footer-bottom__nav main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#">Home</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Portfolio</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Blog</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Pages</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Shop</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Components</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Features</a>
-          </li>
-        </ul>
-      </div>
+      <div class="footer-bottom__wrapper">
+        <div class="footer-bottom__nav main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#">Home</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Pages</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Shop</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Components</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Features</a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="footer-bottom__search">
-        <input type="search" placeholder="Search">
-      </div>
+        <div class="footer-bottom__search">
+          <input type="search" placeholder="Search">
+        </div>
 
-      <div class="footer-bottom__language">
-        <a class="language-toggle" href="#">Eng</a>
-      </div>
+        <div class="footer-bottom__language">
+          <a class="language-toggle" href="#">Eng</a>
+        </div>
 
-      <div class="footer-bottom__social social-icons">
-        <ul class="social-icons__list">
-          <li class="social-icons__item">
-            <a href="#">F</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">t</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">p</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">vk</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">g</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">be</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">xz</a>
-          </li>
-          <li class="social-icons__item">
-            <a href="#">inst</a>
-          </li>
-        </ul>
-      </div>
+        <div class="footer-bottom__social social-icons">
+          <ul class="social-icons__list">
+            <li class="social-icons__item">
+              <a href="#">F</a>
+            </li>
+            <li class="social-icons__item">
+              <a href="#">t</a>
+            </li>
+            <li class="social-icons__item">
+              <a href="#">p</a>
+            </li>
+            <li class="social-icons__item">
+              <a href="#">vk</a>
+            </li>
+            <li class="social-icons__item">
+              <a href="#">g</a>
+            </li>
+            <li class="social-icons__item">
+              <a href="#">be</a>
+            </li>
+            <li class="social-icons__item">
+              <a href="#">xz</a>
+            </li>
+            <li class="social-icons__item">
+              <a href="#">inst</a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="footer-bottom__copyright copyright">
-        <b>© 2016 PASCO | All Rights Reserved</b>
+        <div class="footer-bottom__copyright copyright">
+          <b>© 2016 PASCO | All Rights Reserved</b>
+        </div>
       </div>
-      
     </section>
   </footer>
 </body>

@@ -1,0 +1,29 @@
+.button {
+  border: none;
+  background-color: #303f9f;
+  border-radius: 22.5px;
+
+  min-width: 170px;
+  min-height: 45px;
+
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 36px;
+
+  box-shadow: 0 17px 24px rgba($color: #303f9f, $alpha: 0.2);
+
+  &:hover,
+  &:focus {
+    outline: none;
+    box-shadow: 0 17px 24px rgba($color: #303f9f, $alpha: 0.3);
+    transform: translateY(-5px);
+  }
+  &:focus {
+    border: 2px solid rgba($color:#ff4081, $alpha: 0.2)
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,8 @@
+.social-icons__list {
+  @include reset-list;
+  display: flex;
+}
+
+.social-icons__item {
+  margin-right: 15px;
+}

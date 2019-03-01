@@ -1,5 +1,5 @@
 @font-face {
-  font-weight: normal;
+  font-weight: 400;
   font-family: "Montserrat";
   font-style: normal;
   font-display: swap;
@@ -7,11 +7,27 @@
 }
 
 @font-face {
-  font-weight: bold;
+  font-weight: 700;
   font-family: "Montserrat";
   font-style: normal;
   font-display: swap;
   src: url("../fonts/montserratbold.woff2") format("woff2"), url("../fonts/montserratbold.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 900;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/montserratblack.woff2") format("woff2"), url("../fonts/montserratblack.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Montserrat Light";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/montserratlight.woff2") format("woff2"), url("../fonts/montserratlight.woff") format("woff");
 }
 
 @font-face {
@@ -38,7 +54,7 @@ body {
   color: #000000;
   font-style: normal;
 
-  background-color: #ffffff;
+  background-color: red;
 
 }
 
@@ -70,7 +86,11 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
 
   transition-duration: 0.1s;
+  &:focus {
+    outline: 3px solid rgba($color: #f7e22a, $alpha: 0.2);
+  }
 }
+
 
 *::after,
 *::before {

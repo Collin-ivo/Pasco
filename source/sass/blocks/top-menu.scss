@@ -1,0 +1,60 @@
+.top-menu__list {
+  @include reset-list;
+  min-height: 40px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+  line-height: 27px;
+  text-transform: uppercase;
+  background-color: #303f9f;
+}
+
+.top-menu__item {
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
+
+.top-menu__item--social-icons {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .top-menu {
+    max-width: 1920px;
+    margin: 0 auto;
+    
+    background-color: #191919;
+  }
+
+  .top-menu__list {
+    width: 1170px;
+    padding: 0;
+    margin: 0 auto;
+
+    background-color: transparent;
+  }
+
+  .top-menu__item {
+    order: 1;
+  }
+
+  .top-menu__item--social-icons {
+    display: block;
+  }
+
+  .top-menu__item--language {
+    order: 0;
+  }
+
+  .top-menu__item--sign-in {
+    margin-left: auto;
+  }
+}

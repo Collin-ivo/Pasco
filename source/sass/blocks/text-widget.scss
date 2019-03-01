@@ -1,0 +1,43 @@
+.text-widget__title {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.text-widget__text {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+
+.text-widget__button {
+  padding: 10px 23px;
+  background-color: #2e2e2e;
+  border-radius: 18.5px;
+
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+
+  opacity: 0.7;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    opacity: 1;
+  }
+  &:focus {
+    box-shadow: 0 0 0 3px rgba($color: #f7e22a, $alpha: 0.2);
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}
